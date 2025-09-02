@@ -1,8 +1,33 @@
-h1{
-    font-family: "Times New Roman", Times, serif;
+h1 {
+    font-family: "mi";
 }
 
-@font-face {
-    font-family: "Nasalization";
-    src: url(Nasalization.otf);
+h2 {
+    font-family: "mi";
 }
+
+header{
+    background-color: aliceblue;
+}
+
+p{
+    font-family: "mi"; 
+}
+
+inception {
+    width: auto; 
+    height: auto;
+}
+
+button {
+    
+}
+
+li{
+    font-family: "mi";  
+}
+
+@font-face { font-family: mi; src: url('font.otf'); } 
+      h1 {
+         font-family: mi
+      }
