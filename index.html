@@ -12,11 +12,23 @@
 
 <body style="background-color:powderblue;">
     <center>
-        <button><p>Home!</p></button>        
-        <button><p>About me!</p></button>
+        <noscript>
+            <h1>TURN ON YOUR JAVASCRIPT RAHHHHHHHH</h1>
+        </noscript>
+        <button onclick='ModifyInception("home.html");'><p>Home!</p></button>        
+        <button onclick='ModifyInception("aboutme.html");'><p>About me!</p></button>
+        <button onclick='ModifyInception("showcase.html");'><p>Showcase/Projects!</p></button>
         <div></div>
         <iframe id="inception" src="aboutme.html">
+            
     </center>
+
+    <script>
+        const inception=document.getElementById("inception");
+        function ModifyInception(args){
+            inception.getAttribute("src") = args;
+        }
+    </script>
 </body>
 
 </html>

@@ -19,9 +19,11 @@ inception {
     height: auto;
 }
 
+/*
 button {
-    
-}
+  border-radius: 7%;
+  border: 1px solid;
+}*/
 
 li{
     font-family: "mi";  
