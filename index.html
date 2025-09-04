@@ -12,22 +12,26 @@
 
 <body style="background-color:powderblue;">
     <center>
+        <script>
+            let a0x5413 = document.getElementById("inception");
+            
+            function a0x1003(a0x6542){
+                a0x5413?.setAttribute("src", a0x6542);
+            }
+        </script>
         <noscript>
             <h1>TURN ON YOUR JAVASCRIPT RAHHHHHHHH</h1>
         </noscript>
-        <button onclick='ModifyInception("home.html");'><p>Home!</p></button>        
-        <button onclick='ModifyInception("aboutme.html");'><p>About me!</p></button>
-        <button onclick='ModifyInception("showcase.html");'><p>Showcase/Projects!</p></button>
+        <button onclick="a0x1003('home.html')"><p>Home!</p></button>        
+        <button onclick="a0x1003('aboutme.html')"><p>About me!</p></button>
+        <button onclick="a0x1003('showcase.html')"><p>Showcase/Projects!</p></button>
         <div></div>
         <iframe id="inception" src="aboutme.html">
             
     </center>
 
     <script>
-        const inception=document.getElementById("inception");
-        function ModifyInception(args){
-            inception.getAttribute("src") = args;
-        }
+        
     </script>
 </body>
 
