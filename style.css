@@ -1,4 +1,8 @@
-h1 {
+h1 #mi{
+    font-family: "mi";
+}
+
+#mi{
     font-family: "mi";
 }
 
@@ -15,7 +19,8 @@ p{
 }
 
 iframe {
-    width: 450px; 
+    width: 90%;
+    height: 60%;
 }
 
 /*
