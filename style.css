@@ -18,9 +18,42 @@ p{
     font-family: "mi"; 
 }
 
+button {
+  background-color: darkgrey; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    border-radius: 10%;
+}
+button:hover{
+    background-color: grey;
+}
+button:active{
+    background-color: black;
+}
+
+img{
+    border-radius: 5%;
+}
+img:hover{
+    border-radius: 0%;
+    outline-width: 30%;
+    outline: auto;
+}
+
 iframe {
     width: 90%;
     height: 60%;
+}
+
+a:hover{
+    outline-width: 30%;
+    outline: auto;
+    color:red;
+    font-size: 120%;
 }
 
 /*
